@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "socket-rest"
+version = "0.1.0"
+description = "Test TCP sockets through a REST interface"
+authors = ["Erik lilja <erikvlilja@funnel.io>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+sanic = "^19.12.2"
+sanic-function-deps = "^0.2.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
