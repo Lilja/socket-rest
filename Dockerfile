@@ -16,4 +16,6 @@ RUN pip --no-cache-dir install poetry poetry-setup \
 
 COPY . /app
 
+EXPOSE 8000
+
 CMD ["poetry", "run", "python", "/app/app.py"]

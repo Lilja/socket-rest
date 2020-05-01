@@ -10,7 +10,7 @@ function_deps = create_function_deps()
 logger = logging.getLogger()
 
 APP_TOKEN = os.environ['TOKEN']
-APP_PORT = int(os.environ.get('PORT', 8000))
+APP_PORT = 8000
 APP_TIMEOUT = int(os.environ.get('TIMEOUT', 10))
 
 
